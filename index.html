@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Elite Entrepreneurs | New England Business Networking Group | Weekly Virtual Meetings</title>
+<meta name="description" content="Elite Entrepreneurs is a business networking group with members across Massachusetts and Southern New Hampshire. We meet on Zoom every Monday morning and in person quarterly in Central Massachusetts. Guests welcome.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,400&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Elite Entrepreneurs",
+  "alternateName": "Elite Entrepreneurs Business Connections",
+  "description": "A business networking group of entrepreneurs, sales representatives, and professionals across Massachusetts and Southern New Hampshire who help each other grow their businesses through qualified referrals and warm introductions. Weekly virtual meetings every Monday, with quarterly in-person gatherings in Central Massachusetts.",
+  "areaServed": [
+    {"@type": "State", "name": "Massachusetts"},
+    {"@type": "State", "name": "New Hampshire"}
+  ],
+  "sameAs": [
+    "https://www.facebook.com/elitentrepreneurs",
+    "https://www.linkedin.com/company/eliteentrepreneurs/"
+  ],
+  "logo": "logo/Elite Entrepreneurs Logo.png",
+  "member": [
+    {"@type": "Person", "name": "Matthew Williams", "jobTitle": "VP Business Banking", "url": "https://www.countrybank.com/meet-the-lender-matt-williams/", "worksFor": {"@type": "Organization", "name": "Country Bank", "url": "https://www.countrybank.com/"}},
+    {"@type": "Person", "name": "Joseph Warrino", "jobTitle": "Computer Consultant", "worksFor": {"@type": "Organization", "name": "JW Enterprises, LLC", "url": "https://jwenterprises.tech/"}},
+    {"@type": "Person", "name": "Lindsey White", "jobTitle": "Social Media Expert", "worksFor": {"@type": "Organization", "name": "Magenta Strategies", "url": "https://www.magenta-strategies.com/"}},
+    {"@type": "Person", "name": "Chad King", "jobTitle": "Real Estate Agent and Investor", "worksFor": {"@type": "Organization", "name": "King Real Estate", "url": "https://www.kingrealestate.info/"}, "affiliation": {"@type": "Organization", "name": "Prospective Realty"}},
+    {"@type": "Person", "name": "Scott Humphries", "jobTitle": "Web Design and SEO", "worksFor": {"@type": "Organization", "name": "The Right Path Marketing", "url": "https://therightpathmarketing.com/"}},
+    {"@type": "Person", "name": "Charlie Melia", "jobTitle": "Senior Account Manager", "worksFor": {"@type": "Organization", "name": "TimePay$ Payroll Services", "url": "https://www.timepays.com/"}},
+    {"@type": "Person", "name": "Kathy Vasel", "jobTitle": "Senior Loan Officer", "worksFor": {"@type": "Organization", "name": "CrossCountry Mortgage, LLC", "url": "https://ccm.com/Kathy-Vasel"}},
+    {"@type": "Person", "name": "Lauren LeClaire", "jobTitle": "President", "worksFor": {"@type": "Organization", "name": "Stephen Benjamin Insurance", "url": "https://www.benjaminagency.com/"}},
+    {"@type": "Person", "name": "Cailte Kelley", "jobTitle": "Financial Advisor", "url": "https://www.edwardjones.com/us-en/financial-advisor/cailte-kelley", "sameAs": "https://www.linkedin.com/in/CailteKelley", "worksFor": {"@type": "Organization", "name": "Edward Jones"}}
+  ],
+  "event": {
+    "@type": "BusinessEvent",
+    "name": "Elite Entrepreneurs Weekly Networking Meeting",
+    "description": "Weekly referral networking meeting held every Monday on Zoom. Open networking begins at 8:15 AM; the meeting runs 8:30–9:30 AM Eastern. Guests welcome.",
+    "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+    "eventSchedule": {
+      "@type": "Schedule",
+      "byDay": "https://schema.org/Monday",
+      "startTime": "08:30:00-05:00",
+      "endTime": "09:30:00-05:00",
+      "repeatFrequency": "P1W"
+    },
+    "location": {
+      "@type": "VirtualLocation",
+      "name": "Zoom"
+    },
+    "isAccessibleForFree": true
+  }
+}
+</script>
+<style>
+  :root{
+    --gold:#C6A14B;
+    --gold-soft:#EAD9AE;
+    --gold-tint:#F7EED8;
+    --navy:#2A3349;
+    --cream:#FFFDF7;
+    --cream-warm:#FBF3E2;
+    --coral:#E8734A;
+    --coral-text:#B04A22;
+    --gold-text:#83671F;
+    --sage:#8FAE8B;
+    --sage-text:#4C6B48;
+    --ink:#333D55;
+    --muted:#5C6474;
+    --white:#ffffff;
+    --radius:20px;
+    --shadow:0 6px 24px rgba(42,51,73,.07);
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{font-family:"Nunito","Segoe UI",system-ui,sans-serif;color:var(--ink);background:var(--cream);line-height:1.65;font-size:1.02rem}
+  img{max-width:100%;display:block}
+  a{color:var(--coral-text);text-decoration:underline;text-underline-offset:2px}
+  :focus-visible{outline:3px solid var(--navy);outline-offset:2px;border-radius:4px}
+  .skip-link{position:absolute;left:-9999px;top:0;z-index:100;background:var(--navy);color:var(--white);padding:12px 22px;border-radius:0 0 12px 0;font-weight:700}
+  .skip-link:focus{left:0}
+  .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+  .container{max-width:1120px;margin:0 auto;padding:0 24px}
+  .kicker{color:var(--gold-text);font-weight:800;letter-spacing:.2em;text-transform:uppercase;font-size:.78rem;display:block;margin-bottom:10px}
+  h1,h2,h3{line-height:1.18;color:var(--navy);font-weight:800}
+  h2{font-size:clamp(1.7rem,3.4vw,2.35rem);max-width:24ch}
+  section{padding:84px 0}
+  .center{text-align:center}
+  .center h2{margin-inline:auto}
+
+  /* Buttons */
+  .btn{display:inline-block;background:var(--navy);color:var(--white);font-weight:800;padding:14px 30px;border-radius:999px;transition:.2s;font-size:1rem;text-decoration:none}
+  .btn:hover{background:var(--gold);color:var(--navy);transform:translateY(-2px)}
+  .btn.gold{background:var(--gold);color:var(--navy)}
+  .btn.gold:hover{background:var(--navy);color:var(--white)}
+  .btn.ghost{background:transparent;color:var(--navy);box-shadow:inset 0 0 0 2px var(--gold)}
+  .btn.ghost:hover{background:var(--gold-tint);transform:translateY(-2px)}
+
+  /* Header */
+  header{position:sticky;top:0;z-index:50;background:rgba(255,253,247,.95);backdrop-filter:blur(10px);border-bottom:1px solid var(--gold-soft)}
+  .nav{display:flex;align-items:center;justify-content:space-between;height:72px}
+  .brand{display:flex;align-items:center;gap:11px;font-weight:900;color:var(--navy);font-size:1.08rem;text-decoration:none}
+  .brand img{width:40px;height:40px;border-radius:50%;object-fit:cover}
+  nav ul{display:flex;gap:28px;list-style:none}
+  nav ul a{color:var(--ink);font-weight:700;font-size:.95rem;text-decoration:none}
+  nav ul a:hover{color:var(--gold-text);text-decoration:underline}
+  .brand{text-decoration:none}
+  .nav .btn{padding:10px 22px;font-size:.9rem}
+  .nav-toggle{display:none;background:none;border:none;font-size:1.6rem;color:var(--navy);cursor:pointer}
+
+  /* Hero */
+  .hero{padding:96px 0 100px;background:
+    radial-gradient(600px 400px at 85% 20%, var(--gold-tint) 0%, transparent 70%),
+    radial-gradient(500px 380px at 8% 90%, var(--cream-warm) 0%, transparent 70%),
+    var(--cream)}
+  .hero-grid{display:grid;grid-template-columns:1.15fr 1fr;gap:56px;align-items:center}
+  .hero .where-row{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:22px}
+  .hero .where{display:inline-flex;align-items:center;gap:8px;background:var(--white);border:1.5px solid var(--gold-soft);color:var(--ink);padding:8px 16px;border-radius:999px;font-weight:700;font-size:.85rem;box-shadow:var(--shadow)}
+  .hero .where .dot{width:9px;height:9px;border-radius:50%;background:var(--sage)}
+  .hero h1{font-size:clamp(2.3rem,4.8vw,3.4rem);font-weight:900}
+  .hero h1 em{font-style:normal;color:var(--gold);position:relative;white-space:nowrap}
+  .hero p.lead{font-size:1.18rem;color:var(--muted);margin:20px 0 14px;max-width:52ch}
+  .hero p.metros{font-size:.92rem;color:var(--muted);margin-bottom:30px}
+  .hero .cta-row{display:flex;gap:14px;flex-wrap:wrap}
+  .hero-art{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center}
+  .hero-art .blob{position:absolute;inset:2% -2% 10% -2%;background:var(--gold-soft);border-radius:38% 62% 55% 45%/45% 40% 60% 55%;z-index:0}
+  .carousel{position:relative;z-index:1;width:min(500px,88vw);overflow:hidden;padding:12px 0 4px}
+  .car-track{display:flex;transition:transform .7s ease}
+  .car-item{flex:0 0 33.333%;text-align:center;padding:0 9px}
+  .car-item img{width:100%;max-width:132px;aspect-ratio:1/1;object-fit:cover;border-radius:50%;border:5px solid var(--white);box-shadow:0 10px 28px rgba(42,51,73,.15);margin:0 auto 10px}
+  .car-item strong{display:block;color:var(--navy);font-size:.9rem;font-weight:800;line-height:1.25}
+  .car-item span{color:var(--muted);font-size:.74rem;line-height:1.3;display:block}
+  .car-btn{position:relative;z-index:1;margin-top:16px;background:var(--white);border:1.5px solid var(--gold-soft);color:var(--ink);font-family:inherit;font-weight:700;font-size:.85rem;padding:8px 20px;border-radius:999px;cursor:pointer;box-shadow:var(--shadow)}
+  .car-btn:hover{border-color:var(--gold)}
+  .car-btn:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+
+  /* Meeting strip */
+  .strip{background:var(--navy);color:var(--cream);padding:26px 0}
+  .strip .row{display:flex;justify-content:center;gap:44px;flex-wrap:wrap;align-items:center;text-align:center}
+  .strip .item{display:flex;align-items:center;gap:12px;font-weight:700}
+  .strip .item .em{font-size:1.35rem}
+  .strip .item small{display:block;font-weight:400;color:#B9C0D4;font-size:.85rem}
+
+  /* Section rhythm */
+  .alt{background:var(--white)}
+  .split{display:grid;grid-template-columns:1fr 1.1fr;gap:56px;align-items:center}
+  .split.flip .art{order:2}
+  .art{position:relative}
+  .art .blob{position:absolute;inset:8% -3% -3% 8%;border-radius:55% 45% 40% 60%/50% 55% 45% 50%;z-index:0}
+  .art.b-gold .blob{background:var(--gold-tint)}
+  .art.b-warm .blob{background:var(--cream-warm)}
+  .art img{position:relative;z-index:1;border-radius:22px;box-shadow:var(--shadow)}
+  .split p{color:var(--muted);max-width:56ch}
+  .split p+p{margin-top:14px}
+  .split strong{color:var(--ink)}
+
+  /* Monday rhythm steps */
+  .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:48px}
+  .step{background:var(--white);border-radius:var(--radius);padding:28px 22px;box-shadow:var(--shadow);border-top:5px solid var(--gold)}
+  .step .time{font-weight:900;color:var(--gold-text);font-size:.85rem;letter-spacing:.08em}
+  .step h3{font-size:1.05rem;margin:8px 0 6px}
+  .step p{color:var(--muted);font-size:.92rem}
+
+  /* What we are / what we're not */
+  .row-label{margin-top:32px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;font-size:.72rem;color:var(--gold-text)}
+  .not-list{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:12px}
+  .not{background:var(--white);border-radius:999px;padding:10px 22px;font-weight:700;color:var(--muted);box-shadow:var(--shadow);font-size:.92rem}
+  .not .x{color:var(--coral-text);font-weight:900;margin-right:6px}
+  .not.yes .x{color:var(--sage-text)}
+
+  /* Why cards */
+  .why-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:20px;margin-top:48px}
+  .why{background:var(--white);border-radius:var(--radius);padding:30px 22px;box-shadow:var(--shadow);text-align:center;transition:.25s}
+  .why:hover{transform:translateY(-5px)}
+  .why .emoji{font-size:2rem;margin-bottom:12px}
+  .why h3{font-size:1rem;font-weight:800}
+
+  /* Members */
+  .member-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:24px;margin-top:48px}
+  .member{background:var(--white);border-radius:var(--radius);padding:30px 18px;text-align:center;box-shadow:var(--shadow);transition:.25s}
+  .member:hover{transform:translateY(-5px)}
+  .avatar{width:112px;height:112px;margin:0 auto 16px;border-radius:50%;border:4px solid var(--gold-soft);background:var(--cream-warm);display:flex;align-items:center;justify-content:center;color:var(--gold);font-size:.68rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;overflow:hidden}
+  .avatar img{width:100%;height:100%;object-fit:cover;border-radius:50%}
+  .member h3{font-size:1.05rem}
+  .member .role{color:var(--coral-text);font-weight:700;font-size:.85rem;margin:3px 0}
+  .member .biz{color:var(--muted);font-size:.9rem;line-height:1.45}
+  .member .biz a{color:var(--muted);font-weight:700}
+  .member .biz a:hover{color:var(--gold-text)}
+
+  /* Visit */
+  .visit{background:linear-gradient(160deg,var(--navy) 0%,#3A4560 100%);color:var(--cream);border-radius:32px;max-width:1120px;margin:0 auto;padding:72px 0}
+  .visit-wrap{padding:0 24px}
+  .visit h2{color:var(--white)}
+  .visit .kicker{color:var(--gold-soft)}
+  .visit-grid{display:grid;grid-template-columns:1.2fr 1fr;gap:52px;align-items:center;max-width:1020px;margin:0 auto;padding:0 30px}
+  .visit p{color:#C9CFDE}
+  .visit ul{list-style:none;margin-top:20px;display:grid;gap:12px}
+  .visit li{background:rgba(255,253,247,.07);border-left:4px solid var(--gold);padding:14px 18px;border-radius:10px;color:#DDE1EC}
+  .visit li strong{color:var(--white)}
+  .visit-card{background:var(--white);color:var(--ink);border-radius:var(--radius);padding:34px;box-shadow:0 18px 50px rgba(0,0,0,.25)}
+  .visit-card h3{margin-bottom:8px}
+  .visit-card p{color:var(--muted);font-size:.95rem;margin-bottom:22px}
+  .visit-card .btn{width:100%;text-align:center;border:none;cursor:pointer;font-family:inherit}
+  .visit-card .fine{font-size:.83rem;margin-top:14px;margin-bottom:0;text-align:center}
+
+  /* Form */
+  #visitForm{display:grid;gap:14px;text-align:left}
+  .field label{display:block;font-weight:700;font-size:.85rem;color:var(--navy);margin-bottom:4px}
+  .field .req{color:var(--coral-text)}
+  .field input,.field select,.field textarea{width:100%;padding:10px 12px;border:1.5px solid var(--gold-soft);border-radius:10px;font-family:inherit;font-size:.95rem;color:var(--ink);background:var(--white)}
+  .field input:focus-visible,.field select:focus-visible,.field textarea:focus-visible{outline:3px solid var(--navy);outline-offset:1px;border-color:var(--navy)}
+  .field input[aria-invalid="true"],.field textarea[aria-invalid="true"]{border-color:var(--coral-text)}
+  #vf-status:not(:empty){margin-top:6px;font-weight:700}
+  #vf-status.ok{color:var(--sage-text)}
+  #vf-status.err{color:var(--coral-text)}
+
+  /* Footer */
+  footer{padding:56px 0 40px}
+  .foot{display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap;border-top:1.5px solid var(--gold-soft);padding-top:36px}
+  .foot .brand{font-size:1rem}
+  .foot a{color:var(--ink);font-weight:700}
+  .foot a:hover{color:var(--gold-text)}
+  .foot .see-you{font-weight:900;letter-spacing:.18em;text-transform:uppercase;font-size:.8rem;color:var(--gold-text)}
+
+  /* Reveal */
+  .reveal{opacity:0;transform:translateY(20px);transition:opacity .65s ease,transform .65s ease}
+  .reveal.on{opacity:1;transform:none}
+
+  @media(max-width:900px){
+    section{padding:64px 0}
+    .hero{padding:64px 0}
+    .hero-grid,.split,.visit-grid{grid-template-columns:1fr}
+    .split.flip .art{order:0}
+    .steps{grid-template-columns:1fr 1fr}
+    .car-item{flex:0 0 50%}
+    nav ul{display:none;position:absolute;top:72px;left:0;right:0;background:var(--cream);flex-direction:column;padding:18px 24px;gap:14px;border-bottom:1px solid var(--gold-soft)}
+    nav ul.open{display:flex}
+    .nav-toggle{display:block}
+    .nav .btn{display:none}
+    .visit{border-radius:0}
+  }
+  @media(max-width:560px){
+    .steps{grid-template-columns:1fr}
+  }
+</style>
+</head>
+<body>
+
+<a class="skip-link" href="#top">Skip to main content</a>
+
+<header>
+  <div class="container nav">
+    <a class="brand" href="#top"><img src="logo/Elite%20Entrepreneurs%20Logo.png" alt="Elite Entrepreneurs logo"> Elite Entrepreneurs</a>
+    <nav aria-label="Main navigation">
+      <ul id="menu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#mondays">How It Works</a></li>
+        <li><a href="#members">Members</a></li>
+        <li><a href="#visit">Visit</a></li>
+      </ul>
+    </nav>
+    <a class="btn gold" href="#visit">Join Us Monday</a>
+    <button class="nav-toggle" aria-label="Menu" aria-expanded="false" aria-controls="menu" onclick="const m=document.getElementById('menu');m.classList.toggle('open');this.setAttribute('aria-expanded',m.classList.contains('open'))">☰</button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero" aria-label="Introduction">
+    <div class="container hero-grid">
+      <div>
+        <div class="where-row">
+          <span class="where"><span class="dot"></span> Every Monday on Zoom</span>
+          <span class="where">Once per quarter in person</span>
+          <span class="where">Regular one-to-ones</span>
+        </div>
+        <h1>A Massachusetts networking group <em>built on referrals</em></h1>
+        <p class="lead">Our members pass real referrals, make warm introductions, and want to see you succeed.</p>
+        <div class="cta-row">
+          <a class="btn" href="#visit">Visit as a Guest</a>
+          <a class="btn ghost" href="#mondays">See How It Works</a>
+        </div>
+      </div>
+      <div class="hero-art reveal">
+        <div class="blob"></div>
+        <div class="carousel" role="region" aria-roledescription="carousel" aria-label="Chapter members"><div class="car-track" id="carTrack"></div></div>
+        <button class="car-btn" id="carBtn" aria-pressed="false">⏸ Pause</button>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- PAIN POINT -->
+  <section aria-label="Why this group is different">
+    <div class="container center">
+      <span class="kicker">Sound Familiar?</span>
+      <h2>Structured enough to work. Relaxed enough to enjoy.</h2>
+      <p style="max-width:62ch;margin:18px auto 0;color:var(--muted)">Some networking groups ask for more time than your business can spare. Others are so loose that meetings wander and you leave wondering why you came. If you've tried both, you know how hard the middle is to find.</p>
+      <p style="max-width:62ch;margin:14px auto 0;color:var(--muted)">That middle is what we've built: a consistent weekly agenda that keeps referrals moving, without the rigid rules that turn networking into a second job.</p>
+      <div class="row-label">What we are</div>
+      <div class="not-list">
+        <span class="not yes"><span class="x" aria-hidden="true">✓</span> A referral network of established businesses</span>
+        <span class="not yes"><span class="x" aria-hidden="true">✓</span> A weekly structure that respects your time</span>
+        <span class="not yes"><span class="x" aria-hidden="true">✓</span> A group that shows up for each other</span>
+      </div>
+      <div class="row-label">What we're not</div>
+      <div class="not-list">
+        <span class="not"><span class="x" aria-hidden="true">✕</span> A job-search group</span>
+        <span class="not"><span class="x" aria-hidden="true">✕</span> An MLM audience</span>
+        <span class="not"><span class="x" aria-hidden="true">✕</span> A stage for direct sales pitches</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="alt">
+    <div class="container split">
+      <div class="art b-warm reveal">
+        <div class="blob"></div>
+        <img src="illustrations/illustration_charter_group.png" alt="Illustration of business professionals collaborating around a table">
+      </div>
+      <div>
+        <span class="kicker">Who We Are</span>
+        <h2>Referrals. Support. Camaraderie.</h2>
+        <p>We're a network of entrepreneurs, sales representatives, and professionals who meet weekly to widen each other's circles, sharpen each other's skills, and celebrate each other's wins. Most of us run smaller companies, so we know how much every relationship counts.</p>
+        <p>Our members serve both businesses and households: mortgages and home buying, personal and commercial insurance, financial planning for owners and families, marketing, technology, and strategy. That means the referrals you give and receive here can come from anywhere in your life, not just your business contacts.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW MONDAYS WORK -->
+  <section id="mondays">
+    <div class="container center">
+      <span class="kicker">How It Works</span>
+      <h2>What a Monday morning with us looks like</h2>
+      <div class="steps">
+        <div class="step reveal"><div class="time">8:15 AM</div><h3>Open networking</h3><p>Log on early to catch up with members and meet that week's guests before the agenda starts.</p></div>
+        <div class="step reveal"><div class="time">8:30 AM</div><h3>Wins &amp; success stories</h3><p>Members share referral results, one-to-one recaps, and personal and professional wins.</p></div>
+        <div class="step reveal"><div class="time">Guests</div><h3>Guest introductions</h3><p>Visiting? You'll have two minutes to share who you serve and who you'd like to meet.</p></div>
+        <div class="step reveal"><div class="time">Monthly</div><h3>Officers' reports</h3><p>Once a month, updates on membership, referrals, publicity, and upcoming socials.</p></div>
+        <div class="step reveal"><div class="time">Spotlight</div><h3>Member presentation</h3><p>One member gives a ten-minute look at their business and what a good referral is for them.</p></div>
+        <div class="step reveal"><div class="time">Everyone</div><h3>Member commercials</h3><p>Each member gets two minutes to describe who they serve and who they want to connect with.</p></div>
+      </div>
+      <p style="margin-top:34px;color:var(--muted)">Then once a quarter, we get together in person.</p>
+    </div>
+  </section>
+
+  <!-- WHY -->
+  <section class="alt">
+    <div class="container center">
+      <span class="kicker">Why Members Stay</span>
+      <h2>Five reasons this group works</h2>
+      <div class="why-grid">
+        <div class="why reveal"><div class="emoji" aria-hidden="true">🚀</div><h3>New business opportunities, every week</h3></div>
+        <div class="why reveal"><div class="emoji" aria-hidden="true">🌱</div><h3>A wider, better network</h3></div>
+        <div class="why reveal"><div class="emoji" aria-hidden="true">🧭</div><h3>Be a stronger resource for your clients</h3></div>
+        <div class="why reveal"><div class="emoji" aria-hidden="true">🎤</div><h3>Sharper communication skills</h3></div>
+        <div class="why reveal"><div class="emoji" aria-hidden="true">🎉</div><h3>The joy of helping each other win</h3></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MEMBERS -->
+  <section id="members">
+    <div class="container center">
+      <span class="kicker">Meet the Chapter</span>
+      <h2>One seat per profession</h2>
+      <p style="max-width:60ch;margin:14px auto 0;color:var(--muted)">Your category is yours alone, so you can share openly and refer confidently without a competitor in the room.</p>
+      <div class="member-grid">
+        <div class="member reveal"><div class="avatar"><img src="Headshots/Matthew_Williams.jpg" alt="Matthew Williams, VP Business Banking at Country Bank"></div><h3>Matthew Williams</h3><div class="role">President</div><div class="biz">Business Banking<br><a href="https://www.countrybank.com/meet-the-lender-matt-williams/" target="_blank" rel="noopener">Country Bank<span class="sr-only"> lender page, opens in new tab</span><span aria-hidden="true"> ↗</span></a></div></div>
+        <div class="member reveal"><div class="avatar"><img src="Headshots/Joseph_Warrino.jpg" alt="Joseph Warrino, Computer Consultant at JW Enterprises, LLC"></div><h3>Joseph Warrino</h3><div class="role">Vice President</div><div class="biz">Technology Consulting<br><a href="https://jwenterprises.tech/" target="_blank" rel="noopener">JW Enterprises, LLC<span class="sr-only"> website, opens in new tab</span><span aria-hidden="true"> ↗</span></a></div></div>
+        <div class="member reveal"><div class="avatar"><img src="Headshots/Lindsey%20White.jpg" alt="Lindsey White, Social Media Expert at Magenta Strategies" style="object-position:center 15%"></div><h3>Lindsey White</h3><div class="role">Secretary &amp; Publicity</div><div class="biz">Social Media<br><a href="https://www.magenta-strategies.com/" target="_blank" rel="noopener">Magenta Strategies<span class="sr-only"> website, opens in new tab</span><span aria-hidden="true"> ↗</span></a></div></div>
+        <div class="member reveal"><div class="avatar"><img src="Headshots/Chad_King.jpg" alt="Chad King, Real Estate Agent and Investor at Prospective Realty"></div><h3>Chad King</h3><div class="role">Treasurer &amp; Membership</div><div class="biz"><a href="https://www.kingrealestate.info/" target="_blank" rel="noopener">King Real Estate<span class="sr-only"> website, opens in new tab</span><span aria-hidden="true"> ↗</span></a><br>with Prospective Realty</div></div>
+        <div class="member reveal"><div class="avatar"><img src="Headshots/Scott%20Humphries.jpg" alt="Scott Humphries, Web Design and SEO at The Right Path Marketing" style="object-position:center 20%"></div><h3>Scott Humphries</h3><div class="role">Program Chair</div><div class="biz">Web Design &amp; SEO<br><a href="https://therightpathmarketing.com/" target="_blank" rel="noopener">The Right Path Marketing<span class="sr-only"> website, opens in new tab</span><span aria-hidden="true"> ↗</span></a></div></div>
+        <div class="member reveal"><div class="avatar"><img src="Headshots/Charlie%20Melia.jpg" alt="Charlie Melia, Senior Account Manager at TimePay$ Payroll Services"></div><h3>Charlie Melia</h3><div class="role">Social Chair</div><div class="biz">Payroll Services<br><a href="https://www.timepays.com/" target="_blank" rel="noopener">TimePay$<span class="sr-only"> website, opens in new tab</span><span aria-hidden="true"> ↗</span></a></div></div>
+        <div class="member reveal"><div class="avatar"><img src="Headshots/Kathy_Vasel.jpg" alt="Kathy Vasel, Senior Loan Officer at CrossCountry Mortgage, LLC"></div><h3>Kathy Vasel</h3><div class="role">Member</div><div class="biz">Mortgage Lending<br><a href="https://ccm.com/Kathy-Vasel" target="_blank" rel="noopener">CrossCountry Mortgage<span class="sr-only"> website, opens in new tab</span><span aria-hidden="true"> ↗</span></a></div></div>
+        <div class="member reveal"><div class="avatar"><img src="Headshots/Lauren%20LeClaire.png" alt="Lauren LeClaire, President of Stephen Benjamin Insurance"></div><h3>Lauren LeClaire</h3><div class="role">Member</div><div class="biz">Personal &amp; Commercial Insurance<br><a href="https://www.benjaminagency.com/" target="_blank" rel="noopener">Stephen Benjamin Insurance<span class="sr-only"> website, opens in new tab</span><span aria-hidden="true"> ↗</span></a></div></div>
+        <div class="member reveal"><div class="avatar"><img src="Headshots/Cailte%20Kelley.jpg" alt="Cailte Kelley, Financial Advisor at Edward Jones"></div><h3>Cailte Kelley</h3><div class="role">Member</div><div class="biz">Financial Advising<br><a href="https://www.edwardjones.com/us-en/financial-advisor/cailte-kelley" target="_blank" rel="noopener">Edward Jones<span class="sr-only"> advisor page, opens in new tab</span><span aria-hidden="true"> ↗</span></a></div></div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- VISIT -->
+  <section style="padding-inline:16px">
+    <div class="visit" id="visit">
+      <div class="visit-grid">
+        <div>
+          <span class="kicker">Guests Welcome</span>
+          <h2>Come see for yourself</h2>
+          <p style="margin-top:14px">You can join any Monday on Zoom. No cost, no commitment. You'll have two minutes to introduce yourself:</p>
+          <ul>
+            <li><strong>Who do you serve?</strong> Tell us about your business and your ideal client.</li>
+            <li><strong>Who do you want to meet?</strong> Someone in the room may already know them.</li>
+          </ul>
+        </div>
+        <div class="visit-card reveal">
+          <h3 id="formTitle">Request the Zoom link</h3>
+          <p>Open networking starts at 8:15 AM. Meeting runs 8:30–9:30 AM Eastern, every Monday.</p>
+          <form id="visitForm" aria-labelledby="formTitle" novalidate>
+            <div class="field">
+              <label for="vf-name">Full name <span class="req" aria-hidden="true">*</span></label>
+              <input id="vf-name" name="name" type="text" required autocomplete="name">
+            </div>
+            <div class="field">
+              <label for="vf-email">Email <span class="req" aria-hidden="true">*</span></label>
+              <input id="vf-email" name="email" type="email" required autocomplete="email">
+            </div>
+            <div class="field">
+              <label for="vf-business">Business name <span class="req" aria-hidden="true">*</span></label>
+              <input id="vf-business" name="business" type="text" required autocomplete="organization">
+            </div>
+            <div class="field">
+              <label for="vf-profession">What do you do? <span class="req" aria-hidden="true">*</span></label>
+              <input id="vf-profession" name="profession" type="text" required placeholder="e.g. commercial cleaning, estate planning">
+            </div>
+            <div class="field">
+              <label for="vf-citystate">City &amp; state</label>
+              <input id="vf-citystate" name="citystate" type="text" autocomplete="address-level2">
+            </div>
+            <div class="field">
+              <label for="vf-heard">How did you hear about us?</label>
+              <select id="vf-heard" name="heard">
+                <option value="">Choose one</option>
+                <option>Search engine</option>
+                <option>Facebook</option>
+                <option>LinkedIn</option>
+                <option>A member invited me</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="vf-member">If a member invited you, who?</label>
+              <input id="vf-member" name="member" type="text">
+            </div>
+            <div class="field">
+              <label for="vf-notes">Anything you'd like us to know?</label>
+              <textarea id="vf-notes" name="notes" rows="3"></textarea>
+            </div>
+            <!-- TODO: replace RECAPTCHA_SITE_KEY_HERE with your real site key (see README) -->
+            <div class="g-recaptcha" data-sitekey="RECAPTCHA_SITE_KEY_HERE"></div>
+            <button class="btn gold" type="submit" id="vf-submit">Request an Invite</button>
+            <p id="vf-status" class="fine" role="status" aria-live="polite"></p>
+          </form>
+          <p class="fine">Or message us on <a href="https://www.facebook.com/elitentrepreneurs" target="_blank" rel="noopener">Facebook</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="container foot">
+    <a class="brand" href="#top"><img src="logo/Elite%20Entrepreneurs%20Logo.png" alt="Elite Entrepreneurs logo"> Elite Entrepreneurs</a>
+    <div>
+      <a href="https://www.facebook.com/elitentrepreneurs" target="_blank" rel="noopener">Facebook</a> &nbsp;•&nbsp;
+      <a href="https://www.linkedin.com/company/eliteentrepreneurs/" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+    <div class="see-you">See You Monday!</div>
+  </div>
+</footer>
+
+<script>
+  // Hero member carousel
+  const members = [
+    {src:"Headshots/Matthew_Williams.jpg", name:"Matthew Williams", line:"Business Banking · Country Bank"},
+    {src:"Headshots/Joseph_Warrino.jpg", name:"Joseph Warrino", line:"Technology Consulting · JW Enterprises"},
+    {src:"Headshots/Lindsey%20White.jpg", name:"Lindsey White", line:"Social Media · Magenta Strategies", pos:"center 15%"},
+    {src:"Headshots/Chad_King.jpg", name:"Chad King", line:"Real Estate · Prospective Realty"},
+    {src:"Headshots/Scott%20Humphries.jpg", name:"Scott Humphries", line:"Web Design & SEO · The Right Path Marketing", pos:"center 20%"},
+    {src:"Headshots/Charlie%20Melia.jpg", name:"Charlie Melia", line:"Payroll Services · TimePay$"},
+    {src:"Headshots/Kathy_Vasel.jpg", name:"Kathy Vasel", line:"Mortgage Lending · CrossCountry Mortgage"},
+    {src:"Headshots/Lauren%20LeClaire.png", name:"Lauren LeClaire", line:"Insurance · Stephen Benjamin Insurance"},
+    {src:"Headshots/Cailte%20Kelley.jpg", name:"Cailte Kelley", line:"Financial Advising · Edward Jones"}
+  ];
+  const track = document.getElementById('carTrack');
+  const carBtn = document.getElementById('carBtn');
+  const perView = () => window.matchMedia('(max-width:900px)').matches ? 2 : 3;
+  const makeItem = (m, i, clone) => {
+    const fig = document.createElement('div');
+    fig.className = 'car-item';
+    if (clone) fig.setAttribute('aria-hidden', 'true');
+    else {
+      fig.setAttribute('role', 'group');
+      fig.setAttribute('aria-roledescription', 'slide');
+      fig.setAttribute('aria-label', (i + 1) + ' of ' + members.length);
+    }
+    const img = document.createElement('img');
+    img.src = m.src;
+    img.alt = m.name + ", " + m.line.replace(" · ", " at ");
+    if (m.pos) img.style.objectPosition = m.pos;
+    fig.appendChild(img);
+    fig.insertAdjacentHTML('beforeend',
+      "<strong>" + m.name + "</strong><span>" + m.line + "</span>");
+    return fig;
+  };
+  members.forEach((m, i) => track.appendChild(makeItem(m, i, false)));
+  members.slice(0, 3).forEach((m, i) => track.appendChild(makeItem(m, i, true))); // clones for seamless loop
+
+  let idx = 0, timer = null;
+  const move = animate => {
+    track.style.transition = animate ? 'transform .7s ease' : 'none';
+    track.style.transform = 'translateX(-' + (idx * 100 / perView()) + '%)';
+  };
+  const step = () => {
+    idx++;
+    move(true);
+    if (idx === members.length) {
+      setTimeout(() => { idx = 0; move(false); }, 720);
+    }
+  };
+  const start = () => {
+    if (timer) return;
+    timer = setInterval(step, 3000);
+    carBtn.textContent = '⏸ Pause';
+    carBtn.setAttribute('aria-pressed', 'false');
+    carBtn.setAttribute('aria-label', 'Pause member carousel');
+  };
+  const stop = () => {
+    clearInterval(timer);
+    timer = null;
+    carBtn.textContent = '▶ Play';
+    carBtn.setAttribute('aria-pressed', 'true');
+    carBtn.setAttribute('aria-label', 'Play member carousel');
+  };
+  carBtn.addEventListener('click', () => timer ? stop() : start());
+  window.addEventListener('resize', () => move(false));
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) stop(); else start();
+
+  const io = new IntersectionObserver(entries => {
+    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('on'); io.unobserve(e.target); } });
+  }, { threshold: 0.12 });
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+
+  document.querySelectorAll('#menu a').forEach(a =>
+    a.addEventListener('click', () => document.getElementById('menu').classList.remove('open')));
+
+  // Guest visit form
+  const form = document.getElementById('visitForm');
+  const status = document.getElementById('vf-status');
+  const submitBtn = document.getElementById('vf-submit');
+  form.addEventListener('submit', async e => {
+    e.preventDefault();
+    status.textContent = '';
+    status.className = 'fine';
+    let firstInvalid = null;
+    ['vf-name','vf-email','vf-business','vf-profession'].forEach(id => {
+      const el = document.getElementById(id);
+      const bad = !el.value.trim() || (el.type === 'email' && !el.checkValidity());
+      el.setAttribute('aria-invalid', bad ? 'true' : 'false');
+      if (bad && !firstInvalid) firstInvalid = el;
+    });
+    if (firstInvalid) {
+      status.textContent = 'Please fill in the required fields.';
+      status.classList.add('err');
+      firstInvalid.focus();
+      return;
+    }
+    const data = Object.fromEntries(new FormData(form).entries());
+    if (window.grecaptcha) data.recaptcha = grecaptcha.getResponse();
+    submitBtn.disabled = true;
+    submitBtn.textContent = 'Sending…';
+    try {
+      const res = await fetch('/api/visit-request', {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify(data)
+      });
+      const out = await res.json().catch(() => ({}));
+      if (res.ok && out.ok) {
+        form.hidden = true;
+        status.textContent = "Thanks, " + data.name.split(' ')[0] + "! We'll reply with the Zoom link before Monday.";
+        status.classList.add('ok');
+      } else {
+        throw new Error(out.error || 'Send failed');
+      }
+    } catch (err) {
+      status.textContent = 'Something went wrong sending your request. Please message us on Facebook instead.';
+      status.classList.add('err');
+      if (window.grecaptcha) grecaptcha.reset();
+    } finally {
+      submitBtn.disabled = false;
+      submitBtn.textContent = 'Request an Invite';
+    }
+  });
+</script>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+</body>
+</html>

@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.env
+venv/
+.replit
+replit.nix
+desktop.ini
+*.pptx
+brand-discovery-notes.md
