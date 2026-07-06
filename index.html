@@ -164,12 +164,17 @@
   .step h3{font-size:1.05rem;margin:8px 0 6px}
   .step p{color:var(--muted);font-size:.92rem}
 
-  /* What we are / what we're not */
-  .row-label{margin-top:32px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;font-size:.72rem;color:var(--gold-text)}
-  .not-list{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:12px}
-  .not{background:var(--white);border-radius:999px;padding:10px 22px;font-weight:700;color:var(--muted);box-shadow:var(--shadow);font-size:.92rem}
-  .not .x{color:var(--coral-text);font-weight:900;margin-right:6px}
-  .not.yes .x{color:var(--sage-text)}
+  /* What we are / what we're not comparison panels */
+  .compare{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin:44px auto 0;text-align:left;max-width:920px}
+  .panel{background:var(--white);border-radius:20px;padding:28px 30px;box-shadow:var(--shadow);border-top:6px solid var(--gold)}
+  .panel h3{font-size:.85rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gold-text);margin-bottom:18px}
+  .panel ul{list-style:none;display:grid;gap:14px}
+  .panel li{display:flex;align-items:center;gap:12px;font-weight:700;color:var(--ink)}
+  .panel .chip{flex:0 0 34px;width:34px;height:34px;border-radius:50%;background:#141414;border:2px solid var(--gold);color:var(--gold);display:flex;align-items:center;justify-content:center;font-size:.9rem;font-weight:900}
+  .panel.no{border-top-color:#9AA3B8}
+  .panel.no h3{color:var(--muted)}
+  .panel.no li{color:var(--muted)}
+  .panel.no .chip{background:transparent;border-color:#9AA3B8;color:var(--muted)}
 
   /* Why rows + black/gold icons */
   .why-stack{display:grid;gap:12px;margin-top:28px}
@@ -234,7 +239,7 @@
   @media(max-width:900px){
     section{padding:64px 0}
     .hero{padding:64px 0}
-    .hero-grid,.split,.visit-grid{grid-template-columns:1fr}
+    .hero-grid,.split,.visit-grid,.compare{grid-template-columns:1fr}
     .split.flip .art{order:0}
     .steps{grid-template-columns:1fr 1fr}
     .car-item{flex:0 0 50%}
@@ -303,17 +308,23 @@
       <h2>Structured enough to work. Relaxed enough to enjoy.</h2>
       <p style="max-width:62ch;margin:18px auto 0;color:var(--muted)">Some networking groups ask for more time than your business can spare. Others are so loose that meetings wander and you leave wondering why you came. If you've tried both, you know how hard the middle is to find.</p>
       <p style="max-width:62ch;margin:14px auto 0;color:var(--muted)">That middle is what we've built: a consistent weekly agenda that keeps referrals moving, without the rigid rules that turn networking into a second job.</p>
-      <div class="row-label">What we are</div>
-      <div class="not-list">
-        <span class="not yes"><span class="x" aria-hidden="true">✓</span> A referral network of established businesses</span>
-        <span class="not yes"><span class="x" aria-hidden="true">✓</span> A weekly structure that respects your time</span>
-        <span class="not yes"><span class="x" aria-hidden="true">✓</span> A group that shows up for each other</span>
-      </div>
-      <div class="row-label">What we're not</div>
-      <div class="not-list">
-        <span class="not"><span class="x" aria-hidden="true">✕</span> A job-search group</span>
-        <span class="not"><span class="x" aria-hidden="true">✕</span> An MLM audience</span>
-        <span class="not"><span class="x" aria-hidden="true">✕</span> A stage for direct sales pitches</span>
+      <div class="compare">
+        <div class="panel reveal">
+          <h3>What we are</h3>
+          <ul>
+            <li><span class="chip" aria-hidden="true">✓</span> A referral network of established businesses</li>
+            <li><span class="chip" aria-hidden="true">✓</span> A weekly structure that respects your time</li>
+            <li><span class="chip" aria-hidden="true">✓</span> A group that shows up for each other</li>
+          </ul>
+        </div>
+        <div class="panel no reveal">
+          <h3>What we're not</h3>
+          <ul>
+            <li><span class="chip" aria-hidden="true">✕</span> A job-search group</li>
+            <li><span class="chip" aria-hidden="true">✕</span> An MLM audience</li>
+            <li><span class="chip" aria-hidden="true">✕</span> A stage for direct sales pitches</li>
+          </ul>
+        </div>
       </div>
     </div>
   </section>
